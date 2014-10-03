@@ -10,7 +10,7 @@ div: first-child {
 img{
     margin-left: 12px;
     margin-top: -150px;
-    position:absolute;
+    position:fixed;
 }
 
 /*Header*/
