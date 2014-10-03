@@ -1,0 +1,133 @@
+div: first-child {
+    width: 100%;
+    margin-top: 100%;
+    margin-bottom: 100%;
+    margin-left: 100%;
+    margin-right:100%;
+    /*border-radius: 5px;*/
+}
+
+img{
+    margin-left: 12px;
+    margin-top: -150px;
+    position:absolute;
+}
+
+/*Header*/
+#header{
+    /*dealing with the word*/
+    position: relative;
+    margin-top: 70px;
+}
+
+/*Name of person with resume*/
+#header h1 {
+    color: #691717;
+    font-size: 75px;
+    font-family: 'ultra', sans-serif;
+    font-weight: normal;
+    line-height:40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 2px #dd3cd6, 0 3px #777;
+    
+    margin-top: -0px;
+    margin-left: 350px;
+    }
+#header p {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 985px;
+}
+
+body{
+    background: url("http://www.premierwebpresence.com/images/logo%20splash.png");
+/* old pic http://www.v3wall.com/wallpaper/1920_1200/1009/1920_1200_20100927010356274475.jpg*/
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    /*opacity: 0.5;*/
+    /*padding-top: 30px;*/
+    
+    background-color: #ffffff;
+/*#115685;*/
+
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+/*Content*/
+.content{
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: Times;
+}
+
+.content p {
+    margin: 5px;
+}
+
+/*Sidebar*/
+#sidebar{
+    color: #333030;
+    position: relative;
+	height: 100px;
+	background-color: #00ff00;
+	clear: both;
+	text-align: center
+    
+    /*margin-top:50px;*/
+    /*margin-left: 100px*/
+}
+
+/*Centerin words in Sidebar*/
+#sidebar p {
+	position: relative;
+	padding-top: 15px;
+	margin-top:-15px;
+}
+
+#sidebar h3 {
+	position: relative;
+	padding-top: 15px;
+	margin-top:40px;
+}
+
+/*Styling headdings*/
+#try{
+    font-family:Times ;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+
+/*Changing Style of conteny*/
+h2:nth-child() {
+    margin-left: 25px;
+}
+
+
+
+/*Dealing with links*/
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited{
+    text-decoration: none;
+    color:purple;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #00ff00;
+}
+
+a:active{
+    color: gray;
+}
